@@ -24,6 +24,23 @@ jobs:
       - name: npm install, build, and test
         env:
           NODE_ENV: production
+          APP_KEYS: cjyqihun+/0/xdqkw6ucia==,tskat0xkqnomlkqjocx1tq==,3emcmbonepryrvd2s04+g==,9wgb+fwgqlppakb/niogzw==
+          API_TOKEN_SALT: 8ldtusiadjhs4zwkks4rlq==
+          ADMIN_JWT_SECRET: /getsswdsn7el6ix/c/efa==
+          TRANSFER_TOKEN_SALT: ygfjp8xvxoj91+ktp+rwqg==
+          
+          # Database
+          JWT_SECRET: wdhceroaqugvyk8djutcxo==
+          DATABASE_URL: postgres://svc_bcxfoms@kllsg-sgp-dv-foms-db-01:gx6,7ak3*zed@<ap@kllsg-sgp-dv-foms-db-01.privatelink.postgres.database.azure.com:5432/i12_cms
+          PORT: 1338
+          
+          AWS_S3_KEY: akiawipttxol7hklhcpy
+          AWS_S3_SECRET: axkhn1wqapzxlz3wxniasidxxnebfqbd+cxwzzd
+          AWS_S3_REGION: ap-southeast-1
+          AWS_S3_BUCKET: i12
+          AWS_CLOUDFRONT: https://d392yifhajo78a.cloudfront.net/
+          STRAPI_LICENSE: zk0zqlrnzkfrwdzi2ktgkkzd1xlvltnhsavgrb1pwfxhzvfqzgjzrgpud1lyzgtzvlvflder5yzgmpa3wmxayczszw1wy20xwjuzmelldheycm1ktw1rd0ltzrjbnvlncznpjc/ramfnyejtqn/xzftyrbgnwrmfbpxfhdwdnvy15ylouapra1kty7gnhyd55xkzaevprq
+
         run: |
           yarn install
           yarn run build 
