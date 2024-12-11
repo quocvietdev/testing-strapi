@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "congfig_whatsons",
+  "info": {
+    "singularName": "congfig-whatson",
+    "pluralName": "congfig-whatsons",
+    "displayName": "Congfig-whatson",
+    "name": "congfig-whatson"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_hero_banner": {
+      "type": "string"
+    },
+    "hero_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

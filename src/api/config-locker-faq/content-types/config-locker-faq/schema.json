@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_locker_faqs",
+  "info": {
+    "singularName": "config-locker-faq",
+    "pluralName": "config-locker-faqs",
+    "displayName": "Config-locker-faq",
+    "name": "config-locker-faq"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "locker_faq": {
+      "type": "json"
+    }
+  }
+}

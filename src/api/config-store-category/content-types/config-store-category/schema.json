@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_store_categories",
+  "info": {
+    "singularName": "config-store-category",
+    "pluralName": "config-store-categories",
+    "displayName": "Config-store-category",
+    "name": "config-store-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Categories": {
+      "type": "text"
+    }
+  }
+}

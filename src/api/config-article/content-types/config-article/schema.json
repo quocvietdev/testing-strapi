@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_articles",
+  "info": {
+    "singularName": "config-article",
+    "pluralName": "config-articles",
+    "displayName": "Config-article",
+    "name": "config-article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "richtext"
+    },
+    "url_hero_banner": {
+      "type": "string"
+    },
+    "hero_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stores",
+  "info": {
+    "singularName": "store",
+    "pluralName": "stores",
+    "displayName": "Store",
+    "name": "store"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    },
+    "location": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "contact_number": {
+      "type": "string"
+    },
+    "opening_hours": {
+      "type": "string"
+    },
+    "accept_rewards_points": {
+      "type": "boolean",
+      "default": false
+    },
+    "accept_e_voucher": {
+      "type": "boolean",
+      "default": false
+    },
+    "accept_shop_online": {
+      "type": "boolean",
+      "default": false
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "hasPromotion": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "themeConfig": {
+      "type": "json",
+      "required": false
+    }
+  }
+}

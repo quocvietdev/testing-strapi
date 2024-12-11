@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_web_orderings",
+  "info": {
+    "singularName": "config-web-ordering",
+    "pluralName": "config-web-orderings",
+    "displayName": "Config-web-ordering",
+    "name": "config-web-ordering"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "terms": {
+      "type": "richtext"
+    }
+  }
+}

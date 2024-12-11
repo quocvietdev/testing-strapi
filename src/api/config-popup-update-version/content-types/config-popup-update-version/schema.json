@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_popup_update_versions",
+  "info": {
+    "singularName": "config-popup-update-version",
+    "pluralName": "config-popup-update-versions",
+    "displayName": "Config-popup-update-version",
+    "name": "config-popup-update-version"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "available_version_ios": {
+      "type": "string"
+    },
+    "available_version_android": {
+      "type": "string"
+    },
+    "old_version_ios": {
+      "type": "json"
+    },
+    "old_version_android": {
+      "type": "json"
+    }
+  }
+}

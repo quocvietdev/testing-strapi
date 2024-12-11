@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kiosk_medias",
+  "info": {
+    "singularName": "kiosk-media",
+    "pluralName": "kiosk-medias",
+    "displayName": "Kiosk media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "videos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

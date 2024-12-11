@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_category_s",
+  "info": {
+    "singularName": "config-category",
+    "pluralName": "config-categories",
+    "displayName": "Config-category",
+    "name": "config-category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "i12web": {
+      "type": "json"
+    },
+    "klikApp": {
+      "type": "json"
+    },
+    "heplCenterQR": {
+      "type": "json"
+    },
+    "case_type": {
+      "type": "json"
+    }
+  }
+}

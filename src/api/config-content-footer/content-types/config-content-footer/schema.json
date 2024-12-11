@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_content_footers",
+  "info": {
+    "singularName": "config-content-footer",
+    "pluralName": "config-content-footers",
+    "displayName": "Config-content-footer",
+    "name": "config-content-footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "terms_of_use": {
+      "type": "richtext",
+      "required": true
+    },
+    "data_protection_statement": {
+      "type": "richtext"
+    },
+    "general_privacy_notice": {
+      "type": "richtext"
+    },
+    "whistleblowing_policy": {
+      "type": "richtext"
+    }
+  }
+}

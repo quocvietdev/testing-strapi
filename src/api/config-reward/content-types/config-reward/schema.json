@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_rewards",
+  "info": {
+    "singularName": "config-reward",
+    "pluralName": "config-rewards",
+    "displayName": "Config-reward",
+    "name": "config-reward"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "richtext"
+    },
+    "terms": {
+      "type": "richtext"
+    },
+    "hero_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_click_url": {
+      "type": "string"
+    },
+    "secondary_click_url": {
+      "type": "string"
+    },
+    "secondary_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "secondary_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "show_secondary_banner": {
+      "type": "boolean",
+      "default": true
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

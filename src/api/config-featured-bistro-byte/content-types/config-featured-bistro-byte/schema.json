@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_featured_bistro_bytes_s",
+  "info": {
+    "singularName": "config-featured-bistro-byte",
+    "pluralName": "config-featured-bistro-bytes",
+    "displayName": "Config-featured-bistro-byte",
+    "name": "config-featured-bistro-byte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "branchID": {
+      "type": "string"
+    }
+  }
+}

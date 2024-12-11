@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_contact_uses",
+  "info": {
+    "singularName": "config-contact-us",
+    "pluralName": "config-contact-uses",
+    "displayName": "Config-contact-us",
+    "name": "config-contact-us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "richtext"
+    },
+    "mall_address": {
+      "type": "string"
+    },
+    "phone_customer_service": {
+      "type": "string"
+    },
+    "counter_operating_hours": {
+      "type": "richtext"
+    },
+    "reCaptcha_site_key": {
+      "type": "string"
+    },
+    "reCaptcha_secret_key": {
+      "type": "string"
+    },
+    "categories_of_message": {
+      "type": "string"
+    },
+    "url_hero_banner": {
+      "type": "string"
+    },
+    "hero_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

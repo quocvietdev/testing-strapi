@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_url_socials",
+  "info": {
+    "singularName": "config-url-social",
+    "pluralName": "config-url-socials",
+    "displayName": "Config-url-social",
+    "name": "config-url-social"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    }
+  }
+}

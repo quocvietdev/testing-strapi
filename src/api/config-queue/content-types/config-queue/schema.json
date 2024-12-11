@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_queues",
+  "info": {
+    "singularName": "config-queue",
+    "pluralName": "config-queues",
+    "displayName": "Config-queue",
+    "name": "config-queue"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Advertisement": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    },
+    "promotion_text": {
+      "type": "text",
+      "required": true,
+      "default": "[]"
+    }
+  }
+}

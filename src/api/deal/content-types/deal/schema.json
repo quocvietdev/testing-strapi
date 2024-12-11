@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deals",
+  "info": {
+    "singularName": "deal",
+    "pluralName": "deals",
+    "displayName": "Deal",
+    "name": "deal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "publish_start_date": {
+      "type": "datetime"
+    },
+    "publish_end_date": {
+      "type": "datetime"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "show_homepage": {
+      "type": "boolean",
+      "default": true
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    },
+    "facebook_post_url": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "sort_order": {
+      "type": "biginteger",
+      "default": "0",
+      "required": true
+    }
+  }
+}

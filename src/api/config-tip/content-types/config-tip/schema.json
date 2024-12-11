@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_tips",
+  "info": {
+    "singularName": "config-tip",
+    "pluralName": "config-tips",
+    "displayName": "Config-tip",
+    "name": "config-tip"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tip": {
+      "type": "string"
+    },
+    "url_tip": {
+      "type": "string"
+    },
+    "bistro_byte_tip": {
+      "type": "string"
+    },
+    "url_bistro_byte_tip": {
+      "type": "string"
+    }
+  }
+}

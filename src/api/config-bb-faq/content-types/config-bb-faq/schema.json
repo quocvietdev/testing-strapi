@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_bb_faqs",
+  "info": {
+    "singularName": "config-bb-faq",
+    "pluralName": "config-bb-faqs",
+    "displayName": "Config-bb-faq",
+    "name": "config-bb-faq"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data_faq": {
+      "type": "json"
+    }
+  }
+}

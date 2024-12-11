@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_homepages",
+  "info": {
+    "singularName": "config-homepage",
+    "pluralName": "config-homepages",
+    "displayName": "Config-homepage",
+    "name": "config-homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url_hero_banner": {
+      "type": "string"
+    },
+    "hero_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "url_page_facebook": {
+      "type": "string"
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

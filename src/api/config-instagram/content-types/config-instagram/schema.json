@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_instagrams",
+  "info": {
+    "singularName": "config-instagram",
+    "pluralName": "config-instagrams",
+    "displayName": "Config-instagram",
+    "name": "config-instagram"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "access_token": {
+      "type": "string"
+    },
+    "id_instagram": {
+      "type": "string"
+    }
+  }
+}

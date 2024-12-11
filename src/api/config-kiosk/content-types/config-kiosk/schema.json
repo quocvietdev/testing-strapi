@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_kiosks",
+  "info": {
+    "singularName": "config-kiosk",
+    "pluralName": "config-kiosks",
+    "displayName": "Config-kiosk",
+    "name": "config-kiosk"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Advertisement": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    },
+    "terms_of_use": {
+      "type": "richtext"
+    },
+    "data_protection_policy": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_reward_banners",
+  "info": {
+    "singularName": "config-reward-banner",
+    "pluralName": "config-reward-banners",
+    "displayName": "Config-reward-banner",
+    "name": "config-reward-banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "voucher_image": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "carpark_image": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    }
+  }
+}

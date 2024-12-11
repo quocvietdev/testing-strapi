@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rewards",
+  "info": {
+    "singularName": "reward",
+    "pluralName": "rewards",
+    "displayName": "Reward",
+    "name": "reward"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "point": {
+      "type": "biginteger",
+      "required": true,
+      "default": "0"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "hero_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "hero_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "photos": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    },
+    "youtube_url": {
+      "type": "string",
+      "required": true
+    },
+    "show_homepage": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

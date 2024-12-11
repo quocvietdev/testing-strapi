@@ -1,0 +1,84 @@
+{
+  "kind": "singleType",
+  "collectionName": "config_about_uses",
+  "info": {
+    "singularName": "config-about-us",
+    "pluralName": "config-about-uses",
+    "displayName": "Config-about-us",
+    "name": "config-about-us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lat_location": {
+      "type": "string"
+    },
+    "long_location": {
+      "type": "string"
+    },
+    "key_google_map": {
+      "type": "string"
+    },
+    "getting_by_bus": {
+      "type": "richtext"
+    },
+    "getting_by_car": {
+      "type": "richtext"
+    },
+    "getting_by_train": {
+      "type": "richtext"
+    },
+    "concierge_services": {
+      "type": "richtext"
+    },
+    "amentities_wifi": {
+      "type": "richtext"
+    },
+    "amentities_nursing_room": {
+      "type": "richtext"
+    },
+    "amentities_charging_point": {
+      "type": "richtext"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "carpark_charges_car": {
+      "type": "richtext"
+    },
+    "carpark_charges_motorcycle": {
+      "type": "richtext"
+    },
+    "url_hero_banner": {
+      "type": "string"
+    },
+    "hero_banner_desktop": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "hero_banner_mobile": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "show_banner": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
